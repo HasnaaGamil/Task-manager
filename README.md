@@ -8,6 +8,7 @@ A simple Task Manager application built with Node.js, Express, and MongoDB. It a
 - [Installation](#installation)
 - [API Endpoints](#api-endpoints)
 - [Technologies Used](#technologies-used)
+- [Approach ](#approach)
 - [Environment Variables](#environment-variables)
 - [Contact](#Contact)
 
@@ -39,6 +40,12 @@ A simple Task Manager application built with Node.js, Express, and MongoDB. It a
 - `DELETE /api/tasks/:taskId` – Delete a task by ID
 - `GET /api/tasks/filter` – Filter all tasks based on the status for the authenticated user
 
+## Approach
+The code is structured using the MVC architecture:
+- **Models**: Define data structures for `User` and `Task`.
+- **Controllers**: Implement business logic and interactions with models.
+- **Routes**: Define API endpoints and link them to controllers.
+- **Middleware**: Authenticate and protect routes using JWT tokens.
 
 ## Environment Variables
 The following environment variables need to be set up in your `.env` file:
