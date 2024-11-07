@@ -142,5 +142,3 @@ http://localhost:5000/api
 
 
 
-## Setup Instructions
-1. Clone the repository:
