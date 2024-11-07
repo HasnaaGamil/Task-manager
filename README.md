@@ -5,8 +5,7 @@ A simple Task Manager application built with Node.js, Express, and MongoDB. It a
 
 ## Table of Contents
 - [Features](#features)
-<!-- - [Installation](#installation)
-- [Usage](#usage) -->
+- [Installation](#installation)
 - [API Endpoints](#api-endpoints)
 - [Technologies Used](#technologies-used)
 - [Environment Variables](#environment-variables)
@@ -18,13 +17,15 @@ A simple Task Manager application built with Node.js, Express, and MongoDB. It a
 - Mark tasks as completed or incomplete
 - Filter tasks by their completion status
 - Secure and scalable architecture
-
+## Installation
+- Clone the repository:
+  https://github.com/HasnaaGamil/Task-manager.git
+- run node src/app.js
 
 ## Technologies Used
 - **Backend**: Node.js, Express
 - **Database**: MongoDB with Mongoose
 - **Authentication**: JWT
-
 
 ## API Endpoints
 ### Auth Routes
